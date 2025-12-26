@@ -1,4 +1,3 @@
-import { Navbar } from "@/components/navbar"
 import { FloatingParticles } from "@/components/floating-particles"
 import { GrafiteHero } from "@/components/grafite-hero"
 import { BentoFeatures } from "@/components/bento-features"
@@ -16,7 +15,6 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-zinc-950 overflow-x-hidden">
       <FloatingParticles />
-      <Navbar />
       <GrafiteHero />
       <BentoFeatures />
       <EngineSection />
