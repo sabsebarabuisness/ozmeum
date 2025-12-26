@@ -1,6 +1,37 @@
 import { Brain, Cpu, Zap } from "lucide-react"
 
-const steps = [
+const accentClasses = {
+  purple: {
+    border: "border-purple-500/20",
+    bg: "bg-purple-500/10",
+    text: "text-purple-400",
+    glow: "from-purple-500/5",
+  },
+  orange: {
+    border: "border-orange-500/20",
+    bg: "bg-orange-500/10",
+    text: "text-orange-400",
+    glow: "from-orange-500/5",
+  },
+  blue: {
+    border: "border-blue-500/20",
+    bg: "bg-blue-500/10",
+    text: "text-blue-400",
+    glow: "from-blue-500/5",
+  },
+} as const
+
+type Accent = keyof typeof accentClasses
+
+type Step = {
+  title: string
+  description: string
+  icon: typeof Brain
+  accent: Accent
+  step: string
+}
+
+const steps: Step[] = [
   {
     title: "Semantic Understanding",
     description:
@@ -26,27 +57,6 @@ const steps = [
     step: "03",
   },
 ]
-
-const accentClasses = {
-  purple: {
-    border: "border-purple-500/20",
-    bg: "bg-purple-500/10",
-    text: "text-purple-400",
-    glow: "from-purple-500/5",
-  },
-  orange: {
-    border: "border-orange-500/20",
-    bg: "bg-orange-500/10",
-    text: "text-orange-400",
-    glow: "from-orange-500/5",
-  },
-  blue: {
-    border: "border-blue-500/20",
-    bg: "bg-blue-500/10",
-    text: "text-blue-400",
-    glow: "from-blue-500/5",
-  },
-} as const
 
 export function UnderTheHood() {
   return (
