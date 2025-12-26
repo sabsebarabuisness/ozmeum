@@ -5,9 +5,9 @@ export function BentoFeatures() {
     <section className="relative py-24 px-4">
       {/* Section header */}
       <div className="max-w-4xl mx-auto text-center mb-16">
-        <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 tracking-tight">Unique Features</h2>
+        <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 tracking-tight">Features That Set Us Apart</h2>
         <p className="text-lg text-zinc-400 max-w-2xl mx-auto">
-          Unlike Sora or Runway that generate random pixels, Grafite edits your actual assets with 100% consistency.
+          Unlike Sora or Runway that generate random pixels, Ozmeum edits your actual assets with 100% consistency.
         </p>
       </div>
 
