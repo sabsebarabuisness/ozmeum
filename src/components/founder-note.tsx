@@ -16,6 +16,15 @@ export function FounderNote() {
             and the speed of Rust.
           </p>
           <div className="mt-6 text-sm text-zinc-500 font-mono">- Abhijeet, Founder</div>
+          <a
+            className="mt-3 inline-flex items-center gap-2 text-sm text-blue-400 font-mono underline underline-offset-4 hover:text-blue-300 transition-colors"
+            href="https://www.linkedin.com/in/abhijeet-pratap-singh-teeli-net"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Abhijeet on LinkedIn"
+          >
+            LinkedIn: www.linkedin.com/in/abhijeet-pratap-singh-teeli-net
+          </a>
         </div>
       </div>
     </section>
